@@ -2,6 +2,8 @@
  * Author: James Cuénod
  * Github: jcuenod
  * Applies to: http://(www\.)?gsmarena\.com/.+\.php
+ * 
+ * Note: The applies to regex could probably be improved.
  */
 body, html {
   background: #efefef;
