@@ -1,0 +1,63 @@
+/*
+ * Author: James Cuénod
+ * Github: jcuenod
+ * Applies to: http://(www\.)?mybroadband\.co\.za\/.*\.html
+ * 
+ * Note: The applies to regex could probably be improved.
+ */
+
+body, #page {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 1% 0;
+}
+
+#page {
+  margin: 0;
+  padding: 0;
+}
+
+#page .row {
+  background: transparent;
+  width: 54%;
+  margin: 0 23%;
+  padding: 0;
+}
+.col-main {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#top, #logo, #header1, #header2, #search, .image, .subscribe {
+  display: none;
+}
+
+#page .box {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+  
+#page .box-content {
+  left: 0;
+  font-family: Carlito;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: Carlito;
+  line-height: 130%;
+}
+
+#main .box-post p {
+  font-size: 20px !important;
+  text-align: justify;
+  line-height: 130%;
+}
+
+div#side,
+#tempBox {
+  display: none;
+}
