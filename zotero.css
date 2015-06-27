@@ -1,0 +1,7 @@
+/*
+ * Not a userstyle but it sure improves zotero.
+ * Use it in the Advanced Preferences section
+ *
+ * extension.note.zotero.css
+*/
+p, h1, h2, h3, h4, li {padding: 3px 5px 1px 4px !important; font-family: "Calibri", "Carlito" !important; border-radius: 3px;} h1 {background-color: #ccf;} h2 {background-color: #eef;} h3 {background-color: #cfc;} h4 {background-color: #dfd;} h5 { border-bottom: 1px solid #ccc; font-variant:small-caps; } blockquote {background-color: #eee; border-radius: 3px; margin: 0; padding: 1px 7%;} p, li {font-size: 16px !important; text-align: justify;} p:hover, li:hover {background-color: f0f0f0;} blockquote p:hover, blockquote:hover { background-color: #ccc }
