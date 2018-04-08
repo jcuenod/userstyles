@@ -1,0 +1,36 @@
+@-moz-document url-prefix("https://vufind.carli.illinois.edu/all/vf/MyResearch/CheckedOut") {
+#bd ~ #bd {
+    display: grid;
+    grid-template-columns: auto 150px;
+}
+
+#yui-main {
+    grid-column-start: 1;
+}
+.yui-b {
+    grid-column-start: 2;
+    margin-right: 0 !important;
+    width: auto !important;
+}
+#tabnav {
+    position: sticky;
+    top: 20px;
+}
+
+.renew {
+    margin-left: 5px;
+    margin-top: -10px;
+    padding: 1px 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.renew:hover {
+    background-color: #ccc;
+}
+.success .renew {
+    background-color: #8f8;
+}
+.success .renew:hover {
+    background-color: #5a5;
+}
+}
